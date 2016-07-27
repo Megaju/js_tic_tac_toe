@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+    </header>
+
+    <div class="flex-box">
+        <!-- BLOCS DES JOUEURS -->
+        <aside id="players">
+            <div id="player1">
+                <h3>Player One</h3>
+                <div class="iconePlayer playerA"></div>
+            </div>
+            <div id="player2">
+                <h3>Player Two</h3>
+                <div class="iconePlayer playerB"></div>
+            </div>
+        </aside>
+
+        <!-- BLOC DU PLATEAU DE JEU -->
+        <section>
+            <table id="board-game">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- SCORES -->
+        <aside id="score">
+            <table id="score-board">
+                <td>
+                    <td>Game N°</td>
+                    <td>Winner</td>
+                </td>
+            </table>
+        </aside>
+    </div>
+
+    <footer><p>Tic-Tac-Toe de Julien Malle, 2016 - Code Académie.</p></footer>
+
+</body>
+
+<script type="text/javascript" src="js/game.js"></script>
+
+</html>
